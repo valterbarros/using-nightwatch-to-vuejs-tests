@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test:e2e": "nightwatch"
   },
   "dependencies": {
+    "chromedriver": "2.40.0",
     "core-js": "^2.6.5",
+    "nightwatch": "^1.0.19",
     "vue": "^2.6.10"
   },
   "devDependencies": {
